@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>مواقيت الصلاة</title>
+
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Scope+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Scope+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wed-div">
+      <div id="country-date" class="web-child">
+        <div id="country" style="display: flex; flex-direction: row; gap: 20px">
+          <div>
+            <img src="icon/placeholder.png" alt="" style="width: 30px" />
+          </div>
+          <div style="margin-bottom: 20px" id="selecter">
+            <label>Select Country :</label>
+            <select id="country-select">
+              <option value="">Country</option>
+            </select>
+            <br />
+
+            <label>City :</label>
+            <select id="city-select">
+              <option value="">City</option>
+            </select>
+          </div>
+        </div>
+        <div id="date" style="display: flex; flex-direction: row; gap: 20px">
+          <div><img src="icon/date.png" alt="" style="width: 30px" /></div>
+          <div>6/may/2025</div>
+        </div>
+      </div>
+      <div id="prayers" class="web-child">
+        <div id="Fajr" class="prayer">
+          <div><img src="icon/prayer1.png" alt="" class="icon" /></div>
+          <div>الفجر</div>
+          <div id="time-fajr">12:39</div>
+        </div>
+        <div id="Sunrise" class="prayer">
+          <div><img src="icon/prayer2.png" alt="" class="icon" /></div>
+          <div>الشروق</div>
+          <div id="time-sunrise">12:39</div>
+        </div>
+        <div id="Dhuhr" class="prayer">
+          <div><img src="icon/prayer3.png" alt="" class="icon" /></div>
+          <div>الظهر</div>
+          <div id="time-dhuhr">12:39</div>
+        </div>
+        <div id="Asr" class="prayer">
+          <div><img src="icon/prayer4.png" alt="" class="icon" /></div>
+          <div>العصر</div>
+          <div id="time-asr">12:39</div>
+        </div>
+        <div id="Maghrib" class="prayer">
+          <div><img src="icon/prayer5.png" alt="" class="icon" /></div>
+          <div>المغرب</div>
+          <div id="time-maghrib">12:39</div>
+        </div>
+        <div id="Isha" class="prayer">
+          <div><img src="icon/prayer6.png" alt="" class="icon" /></div>
+          <div>العشاء</div>
+          <div id="time-isha">12:39</div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

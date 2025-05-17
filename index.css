@@ -1,0 +1,59 @@
+body {
+  background-color: #f6f1e9;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "Cairo", sans-serif;
+}
+#country-date {
+  margin-bottom: 20px;
+  font-size: 24px;
+  gap: 50px;
+  font-family: "Scope One", serif;
+}
+
+.wed-div {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 80%;
+  max-width: 900px;
+}
+.web-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.prayer {
+  background: #e0d6c3;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #333;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  padding: 10px;
+}
+#prayers {
+  flex-direction: row-reverse;
+}
+
+.icon {
+  width: 35px;
+  padding-top: 5px;
+}
+
+#selecter {
+  width: 100%;
+}
